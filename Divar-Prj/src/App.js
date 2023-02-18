@@ -1,11 +1,7 @@
+import Navbar from "./components/Navbar";
 import El from "./library/El" ;
 const App = ()=> {
-    return (
-        El({
-            element: "h1",
-            child: "Hello"
-        })
-    )
+    return (Navbar());
 }
 
 export default App;
