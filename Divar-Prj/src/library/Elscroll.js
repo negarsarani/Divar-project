@@ -1,8 +1,7 @@
 import El from "./El";
 
-const Elscroll = (item , icon="") => {
-    console.log(item);
-    console.log(icon);
+const Elscroll = (item, icon ="") => {
+ 
   return El({
     element: "div",
     className:
@@ -21,4 +20,3 @@ const Elscroll = (item , icon="") => {
   });
 };
 export default Elscroll;
-

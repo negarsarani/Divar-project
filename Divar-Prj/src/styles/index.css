@@ -1,18 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "vazir";
+  src: url("../assest/fonts/Vazir-Regular-FD.woff"), format(woff);
+}
+body {
+  font-family: "vazir";
+}
 .menu-scroll-x {
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
 }
-.menu-scroll-x::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
+.menu-scroll-x::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
-
-/* @font-face {
-    font-family: vazirmatn;
-    src: url("/src/assest/fonts/Vazir-Variable.woff2");
-}
-.body{
-    font-family: vazirmatn;
-} */

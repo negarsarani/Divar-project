@@ -6,7 +6,7 @@ const Searchbox = () => {
     className: "p-4 shadow-md",
     child: El({
       element: "div",
-      className: "flex w-full justify-between items-center p-2 bg-neutral-100",
+      className: "flex w-full justify-between items-center p-4 bg-neutral-100",
       child: [
         El({
           element: "div",
