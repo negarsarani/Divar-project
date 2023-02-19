@@ -10,149 +10,150 @@
 
 <body>
   <div id="app"></div>
-  <div class="navbar">
-    <!-- // -->
-    <div class="flex flex-col shadow-md">
-     <div class="p-4 shadow-md">
-        <div class="flex w-full justify-between items-center p-2 bg-neutral-100  ">
-          <div class="flex items-center space-x-1 w-full ">
-            <svg height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g id="SVGRepo_bgCarrier" stroke-width="0" />
-              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
-              <g id="SVGRepo_iconCarrier">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M11 5C7.68629 5 5 7.68629 5 11C5 14.3137 7.68629 17 11 17C14.3137 17 17 14.3137 17 11C17 7.68629 14.3137 5 11 5ZM3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11C19 12.8487 18.3729 14.551 17.3199 15.9056L20.7071 19.2929C21.0976 19.6834 21.0976 20.3166 20.7071 20.7071C20.3166 21.0976 19.6834 21.0976 19.2929 20.7071L15.9056 17.3199C14.551 18.3729 12.8487 19 11 19C6.58172 19 3 15.4183 3 11Z"
-                  fill="#B8B8B8" />
-              </g>
-            </svg>
-            <span class=" overflow-hidden text-ellipsis text-neutral-400 px-2  w-fit">جستجو در همه آگهی ها </span>
-          </div>
-          <div class="flex items-center justify-center space-x-1 ">
-            <span class="text-neutral-500 border-r-2  border-neutral-300 pr-2">تهران </span>
-            <svg height="20px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#000000">
-              <g id="SVGRepo_bgCarrier" stroke-width="0" />
-              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
-              <g id="SVGRepo_iconCarrier">
-                <path fill="#B8B8B8"
-                  d="M800 416a288 288 0 1 0-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416zM512 960C277.312 746.688 160 565.312 160 416a352 352 0 0 1 704 0c0 149.312-117.312 330.688-352 544z" />
-                <path fill="#B8B8B8"
-                  d="M512 512a96 96 0 1 0 0-192 96 96 0 0 0 0 192zm0 64a160 160 0 1 1 0-320 160 160 0 0 1 0 320z" />
-              </g>
-            </svg>
-          </div>
+  <!-- <div class="navbar flex flex-col shadow-md">
+    <div class="p-4 shadow-md">
+      <div class="flex w-full justify-between items-center p-2 bg-neutral-100">
+        <div class="flex items-center space-x-1 w-full">
+          <svg height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+            <g id="SVGRepo_iconCarrier">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11 5C7.68629 5 5 7.68629 5 11C5 14.3137 7.68629 17 11 17C14.3137 17 17 14.3137 17 11C17 7.68629 14.3137 5 11 5ZM3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11C19 12.8487 18.3729 14.551 17.3199 15.9056L20.7071 19.2929C21.0976 19.6834 21.0976 20.3166 20.7071 20.7071C20.3166 21.0976 19.6834 21.0976 19.2929 20.7071L15.9056 17.3199C14.551 18.3729 12.8487 19 11 19C6.58172 19 3 15.4183 3 11Z"
+                fill="#B8B8B8" />
+            </g>
+          </svg>
+          <span class="overflow-hidden text-ellipsis text-neutral-400 px-2 w-fit">جستجو در همه آگهی ها
+          </span>
         </div>
-      </div>
-      <!-- // -->
-      <div class="menu-scroll-x overflow-x-auto w-full ">
-        <div class=" flex p-3 gap-3 text-ms items-center w-full  ">
-          <div class="flex items-center  border  flex-shrink-0 border-[#a7a3a3] rounded-3xl px-3 py-1">
-            <svg fill="#707070" height="15px" viewBox="0 0 35 35" data-name="Layer 2" id="Layer_2"
-              xmlns="http://www.w3.org/2000/svg" transform="rotate(270)" stroke="#707070">
-              <g id="SVGRepo_bgCarrier" stroke-width="0" />
-              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M5.42,34.44a1.25,1.25,0,0,1-1.25-1.25V1.81a1.25,1.25,0,0,1,2.5,0V33.19A1.25,1.25,0,0,1,5.42,34.44Z" />
-                <path d="M9.34,27.41H1.5a1.25,1.25,0,0,1,0-2.5H9.34a1.25,1.25,0,0,1,0,2.5Z" />
-                <path
-                  d="M29.58,34.44a1.25,1.25,0,0,1-1.25-1.25V1.81a1.25,1.25,0,1,1,2.5,0V33.19A1.25,1.25,0,0,1,29.58,34.44Z" />
-                <path d="M33.5,27.41H25.66a1.25,1.25,0,0,1,0-2.5H33.5a1.25,1.25,0,0,1,0,2.5Z" />
-                <path
-                  d="M17.5,34.44a1.25,1.25,0,0,1-1.25-1.25V1.81a1.25,1.25,0,1,1,2.5,0V33.19A1.25,1.25,0,0,1,17.5,34.44Z" />
-                <path d="M21.42,10.09H13.58a1.25,1.25,0,0,1,0-2.5h7.84a1.25,1.25,0,0,1,0,2.5Z" />
-              </g>
-            </svg>
-            <span class="pr-1 text-neutral-600 ">فیلترها</span>
-          </div>
-          <div class="flex items-center border  flex-shrink-0 border-[#a7a3a3] rounded-3xl px-3 py-1">
-            <svg fill="#707070" height="18px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
-              style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
-              transform="rotate(180)">
-              <g id="SVGRepo_bgCarrier" stroke-width="0" />
-              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
-              <g id="SVGRepo_iconCarrier">
-                <rect id="Icons" x="-448" y="0" width="1280" height="800" style="fill:none;" />
-                <g id="Icons1" serif:id="Icons">
-                  <g id="Strike"> </g>
-                  <g id="H1"> </g>
-                  <g id="H2"> </g>
-                  <g id="H3"> </g>
-                  <g id="list-ul">
-                    <path
-                      d="M12.016,12.164c-2.204,0 -3.983,1.778 -3.983,3.983c0,2.203 1.779,3.982 3.983,3.982c2.204,0 3.982,-1.779 3.982,-3.982c0,-2.205 -1.778,-3.983 -3.982,-3.983Z"
-                      style="fill-rule:nonzero;" />
-                    <path
-                      d="M12.016,28.094c-2.204,0 -3.983,1.779 -3.983,3.983c0,2.203 1.779,3.982 3.983,3.982c2.204,0 3.982,-1.779 3.982,-3.982c0,-2.204 -1.778,-3.983 -3.982,-3.983Z"
-                      style="fill-rule:nonzero;" />
-                    <path
-                      d="M12.016,44.024c-2.217,0 -3.983,1.792 -3.983,3.983c0,2.19 1.792,3.982 3.983,3.982c2.19,0 3.982,-1.792 3.982,-3.982c0,-2.191 -1.765,-3.983 -3.982,-3.983Z"
-                      style="fill-rule:nonzero;" />
-                    <rect x="23.981" y="45.848" width="32.083" height="4.023" style="fill-rule:nonzero;" />
-                    <rect x="23.981" y="13.997" width="32.083" height="3.984" style="fill-rule:nonzero;" />
-                    <rect x="23.981" y="29.915" width="32.083" height="4" style="fill-rule:nonzero;" />
-                  </g>
-                  <g id="hamburger-1"> </g>
-                  <g id="hamburger-2"> </g>
-                  <g id="list-ol"> </g>
-                  <g id="list-task"> </g>
-                  <g id="trash"> </g>
-                  <g id="vertical-menu"> </g>
-                  <g id="horizontal-menu"> </g>
-                  <g id="sidebar-2"> </g>
-                  <g id="Pen"> </g>
-                  <g id="Pen1" serif:id="Pen"> </g>
-                  <g id="clock"> </g>
-                  <g id="external-link"> </g>
-                  <g id="hr"> </g>
-                  <g id="info"> </g>
-                  <g id="warning"> </g>
-                  <g id="plus-circle"> </g>
-                  <g id="minus-circle"> </g>
-                  <g id="vue"> </g>
-                  <g id="cog"> </g>
-                  <g id="logo"> </g>
-                  <g id="radio-check"> </g>
-                  <g id="eye-slash"> </g>
-                  <g id="eye"> </g>
-                  <g id="toggle-off"> </g>
-                  <g id="shredder"> </g>
-                  <g id="spinner--loading--dots-" serif:id="spinner [loading, dots]"> </g>
-                  <g id="react"> </g>
-                  <g id="check-selected"> </g>
-                  <g id="turn-off"> </g>
-                  <g id="code-block"> </g>
-                  <g id="user"> </g>
-                  <g id="coffee-bean"> </g>
-                  <g id="coffee-beans">
-                    <g id="coffee-bean1" serif:id="coffee-bean"> </g>
-                  </g>
-                  <g id="coffee-bean-filled"> </g>
-                  <g id="coffee-beans-filled">
-                    <g id="coffee-bean2" serif:id="coffee-bean"> </g>
-                  </g>
-                  <g id="clipboard"> </g>
-                  <g id="clipboard-paste"> </g>
-                  <g id="clipboard-copy"> </g>
-                  <g id="Layer1"> </g>
-                </g>
-              </g>
-            </svg>
-            <span class="pr-1 text-neutral-600 ">دسته‌ها</span>
-          </div>
-          <div class="flex items-center  border flex-shrink-0  border-[#a7a3a3] rounded-3xl px-3 py-1">
-            <span class="pr-1 text-neutral-600 ">خودروسازی</span>
-          </div>
-          <div class="flex items-center  border flex-shrink-0 border-[#a7a3a3] rounded-3xl px-3 py-1">
-            <span class="pr-1 text-neutral-600 ">صندلی و نیمکت</span>
-          </div>
-          <div class="flex items-center  border flex-shrink-0 border-[#a7a3a3] rounded-3xl px-3 py-1">
-            <span class="pr-1 text-neutral-600 ">فروش آپارتمان</span>
-          </div>
+        <div class="flex items-center justify-center space-x-1">
+          <span class="text-neutral-500 border-r-2 border-neutral-300 pr-2">تهران
+          </span>
+          <svg height="20px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+            <g id="SVGRepo_iconCarrier">
+              <path fill="#B8B8B8"
+                d="M800 416a288 288 0 1 0-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416zM512 960C277.312 746.688 160 565.312 160 416a352 352 0 0 1 704 0c0 149.312-117.312 330.688-352 544z" />
+              <path fill="#B8B8B8"
+                d="M512 512a96 96 0 1 0 0-192 96 96 0 0 0 0 192zm0 64a160 160 0 1 1 0-320 160 160 0 0 1 0 320z" />
+            </g>
+          </svg>
         </div>
       </div>
     </div>
-  </div>
+    <div class="menu-scroll-x overflow-x-auto w-full">
+      <div class="flex p-3 gap-3 text-ms items-center w-full">
+        <div class="flex items-center border flex-shrink-0 border-[#a7a3a3] rounded-3xl px-3 py-1">
+          <svg fill="#707070" height="15px" viewBox="0 0 35 35" data-name="Layer 2" id="Layer_2"
+            xmlns="http://www.w3.org/2000/svg" transform="rotate(270)" stroke="#707070">
+            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M5.42,34.44a1.25,1.25,0,0,1-1.25-1.25V1.81a1.25,1.25,0,0,1,2.5,0V33.19A1.25,1.25,0,0,1,5.42,34.44Z" />
+              <path d="M9.34,27.41H1.5a1.25,1.25,0,0,1,0-2.5H9.34a1.25,1.25,0,0,1,0,2.5Z" />
+              <path
+                d="M29.58,34.44a1.25,1.25,0,0,1-1.25-1.25V1.81a1.25,1.25,0,1,1,2.5,0V33.19A1.25,1.25,0,0,1,29.58,34.44Z" />
+              <path d="M33.5,27.41H25.66a1.25,1.25,0,0,1,0-2.5H33.5a1.25,1.25,0,0,1,0,2.5Z" />
+              <path
+                d="M17.5,34.44a1.25,1.25,0,0,1-1.25-1.25V1.81a1.25,1.25,0,1,1,2.5,0V33.19A1.25,1.25,0,0,1,17.5,34.44Z" />
+              <path d="M21.42,10.09H13.58a1.25,1.25,0,0,1,0-2.5h7.84a1.25,1.25,0,0,1,0,2.5Z" />
+            </g>
+          </svg>
+          <span class="pr-1 text-neutral-600">فیلترها</span>
+        </div>
+        <div class="flex items-center border flex-shrink-0 border-[#a7a3a3] rounded-3xl px-3 py-1">
+          <svg fill="#707070" height="18px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                stroke-linejoin: round;
+                stroke-miterlimit: 2;
+              " transform="rotate(180)">
+            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+            <g id="SVGRepo_iconCarrier">
+              <rect id="Icons" x="-448" y="0" width="1280" height="800" style="fill: none" />
+              <g id="Icons1" serif:id="Icons">
+                <g id="Strike"></g>
+                <g id="H1"></g>
+                <g id="H2"></g>
+                <g id="H3"></g>
+                <g id="list-ul">
+                  <path
+                    d="M12.016,12.164c-2.204,0 -3.983,1.778 -3.983,3.983c0,2.203 1.779,3.982 3.983,3.982c2.204,0 3.982,-1.779 3.982,-3.982c0,-2.205 -1.778,-3.983 -3.982,-3.983Z"
+                    style="fill-rule: nonzero" />
+                  <path
+                    d="M12.016,28.094c-2.204,0 -3.983,1.779 -3.983,3.983c0,2.203 1.779,3.982 3.983,3.982c2.204,0 3.982,-1.779 3.982,-3.982c0,-2.204 -1.778,-3.983 -3.982,-3.983Z"
+                    style="fill-rule: nonzero" />
+                  <path
+                    d="M12.016,44.024c-2.217,0 -3.983,1.792 -3.983,3.983c0,2.19 1.792,3.982 3.983,3.982c2.19,0 3.982,-1.792 3.982,-3.982c0,-2.191 -1.765,-3.983 -3.982,-3.983Z"
+                    style="fill-rule: nonzero" />
+                  <rect x="23.981" y="45.848" width="32.083" height="4.023" style="fill-rule: nonzero" />
+                  <rect x="23.981" y="13.997" width="32.083" height="3.984" style="fill-rule: nonzero" />
+                  <rect x="23.981" y="29.915" width="32.083" height="4" style="fill-rule: nonzero" />
+                </g>
+                <g id="hamburger-1"></g>
+                <g id="hamburger-2"></g>
+                <g id="list-ol"></g>
+                <g id="list-task"></g>
+                <g id="trash"></g>
+                <g id="vertical-menu"></g>
+                <g id="horizontal-menu"></g>
+                <g id="sidebar-2"></g>
+                <g id="Pen"></g>
+                <g id="Pen1" serif:id="Pen"></g>
+                <g id="clock"></g>
+                <g id="external-link"></g>
+                <g id="hr"></g>
+                <g id="info"></g>
+                <g id="warning"></g>
+                <g id="plus-circle"></g>
+                <g id="minus-circle"></g>
+                <g id="vue"></g>
+                <g id="cog"></g>
+                <g id="logo"></g>
+                <g id="radio-check"></g>
+                <g id="eye-slash"></g>
+                <g id="eye"></g>
+                <g id="toggle-off"></g>
+                <g id="shredder"></g>
+                <g id="spinner--loading--dots-" serif:id="spinner [loading, dots]"></g>
+                <g id="react"></g>
+                <g id="check-selected"></g>
+                <g id="turn-off"></g>
+                <g id="code-block"></g>
+                <g id="user"></g>
+                <g id="coffee-bean"></g>
+                <g id="coffee-beans">
+                  <g id="coffee-bean1" serif:id="coffee-bean"></g>
+                </g>
+                <g id="coffee-bean-filled"></g>
+                <g id="coffee-beans-filled">
+                  <g id="coffee-bean2" serif:id="coffee-bean"></g>
+                </g>
+                <g id="clipboard"></g>
+                <g id="clipboard-paste"></g>
+                <g id="clipboard-copy"></g>
+                <g id="Layer1"></g>
+              </g>
+            </g>
+          </svg>
+          <span class="pr-1 text-neutral-600">دسته‌ها</span>
+        </div>
+        <div class="flex items-center border flex-shrink-0 border-[#a7a3a3] rounded-3xl px-3 py-1">
+          <span class="pr-1 text-neutral-600">خودروسازی</span>
+        </div>
+        <div class="flex items-center border flex-shrink-0 border-[#a7a3a3] rounded-3xl px-3 py-1">
+          <span class="pr-1 text-neutral-600">صندلی و نیمکت</span>
+        </div>
+        <div class="flex items-center border flex-shrink-0 border-[#a7a3a3] rounded-3xl px-3 py-1">
+          <span class="pr-1 text-neutral-600">فروش آپارتمان</span>
+        </div>
+      </div>
+    </div>
+  </div> -->
   <script type="module" src="/main.js"></script>
 </body>
 

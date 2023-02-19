@@ -8,3 +8,11 @@
 .menu-scroll-x::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
+
+/* @font-face {
+    font-family: vazirmatn;
+    src: url("/src/assest/fonts/Vazir-Variable.woff2");
+}
+.body{
+    font-family: vazirmatn;
+} */
