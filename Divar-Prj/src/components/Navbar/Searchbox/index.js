@@ -14,7 +14,7 @@ const Searchbox = () => {
           child: [
             El({
               element: "img",
-              src: "../../assets/svg/search.svg",
+              src: "./src/assest/svg/search.svg",
             }),
             El({
               element: "span",
@@ -35,7 +35,7 @@ const Searchbox = () => {
             }),
             El({
               element: "img",
-              src: "../../../assest/svg/location.svg",
+              src:"./src/assest/svg/location.svg",
             }),
           ],
         }),
@@ -45,7 +45,7 @@ const Searchbox = () => {
 };
 export default Searchbox;
 
-{
+
   /* <div class="p-4 shadow-md">
   <div class="flex w-full justify-between items-center p-2 bg-neutral-100  ">
     <div class="flex items-center space-x-1 w-full ">
@@ -104,4 +104,4 @@ export default Searchbox;
     </div>
   </div>
 </div>; */
-}
+
