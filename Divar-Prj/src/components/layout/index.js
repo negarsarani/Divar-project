@@ -1,11 +1,9 @@
 import El from "../../library/El"
-import Navbar from "../Navbar";
 
-const Mainperent= ()=>{
+const Mainperent= (child)=>{
    return( El({
         element:"div",
-        className:"",
-        child:[Navbar()]
+        child,
     }))
 }
 export default Mainperent;

@@ -3,7 +3,7 @@ import El from "../../../library/El";
 const ResponsiveMenu = () => {
   return El({
     element: "div",
-    className: "navbar flex flex-col shadow-md  w-full fixed top-0 bg-white  ",
+    className: "navbar flex flex-col shadow-md  w-full  ",
     child: El({
       element: "div",
       className: " hidden lg:block ",
