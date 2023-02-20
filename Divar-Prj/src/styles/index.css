@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
   font-family: "vazir";
   src: url("../assest/fonts/Vazir-Regular-FD.woff"), format(woff);
@@ -8,6 +9,7 @@
 body {
   font-family: "vazir";
 }
+
 .menu-scroll-x {
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */

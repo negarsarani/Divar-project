@@ -3,7 +3,7 @@ import El from "../../../library/El";
 const Searchbox = () => {
   return El({
     element: "div",
-    className: "p-4 shadow-md lg:hidden block  w-full ",
+    className: "p-4 shadow-md lg:hidden block w-screen ",
     child: El({
       element: "div",
       className: "flex w-full justify-between items-center p-4 bg-neutral-100",
