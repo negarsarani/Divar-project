@@ -5,7 +5,7 @@ import Cards from "./Cards";
 const Main = () => {
   return El({
     element: "div",
-    className: " flex",
+    className: " flex w-full",
     child: [Aside(), Cards()],
   });
 };

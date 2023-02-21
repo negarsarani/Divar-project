@@ -5,6 +5,7 @@ import Main from "./Main";
 const Body = () => {
   return El({
     element: "div",
+    className: "xl:px-10 lg:px-5 px-2",
     child: [Main(), Footer()],
   });
 };
