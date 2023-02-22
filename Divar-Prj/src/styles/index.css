@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "vazir";
-  src: url("../assest/fonts/Vazir-Regular-FD.woff"), format(woff);
+  src: url("../assest/fonts/Vazir-Regular-FD.woff")
 }
-body {
-  font-family: "vazir";
-}
+/* body {
+  font-family: "vazir" !important;
+} */
 
 .menu-scroll-x {
   -ms-overflow-style: none; /* Internet Explorer 10+ */

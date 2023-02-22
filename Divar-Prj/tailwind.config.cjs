@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./index.html", "./main.js", "./App.js", "./src/**/*.js"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        "vazir" :"vazir"
+      }
+    },
   },
   plugins: [],
 };
