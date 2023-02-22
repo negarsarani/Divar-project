@@ -1,9 +1,10 @@
 import El from "../../../../library/El";
+import DataCard from "./data";
 
 const Cards = () => {
   return El({
     element: "div",
-    className: "w-full xl:pr-10 md:pr-5 ",
+    className: "w-full xl:pr-10 ",
     child: El({
       element: "main",
       className: "flex flex-col  w-full relative",
@@ -14,17 +15,18 @@ const Cards = () => {
           child: El({
             element: "span",
             className: " text-neutral-500 justify-center",
-            child: "دیوار تهران انولع آگهی‌ها و خدمات در تهران",
+            child: "دیوار تهران انواع آگهی‌ها و خدمات در تهران",
           }),
         }),
         El({
           element: "div",
           className:
             "grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4  w-full",
-            child:""
+            child:DataCard
         }),
       ],
     }),
   });
 };
 export default Cards;
+

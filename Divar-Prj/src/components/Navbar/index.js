@@ -6,12 +6,16 @@ import Searchbox from "./Searchbox/index";
 const Navbar = () => {
   return El({
     element: "header",
-    className: " ",
-    child:El({
-      element:"nav",
-      className: " flex flex-col",
+    className: " w-full fixed top-0 bg-[#ffff] z-[1000]",
+    child: El({
+      element: "nav",
+      className: " flex flex-col ",
       child: [Searchbox(), MenuScroll(), ResponsiveMenu()],
-    })
+    }),
   });
 };
 export default Navbar;
+
+{
+  /* <div class="z-[1000]"></div> */
+}
